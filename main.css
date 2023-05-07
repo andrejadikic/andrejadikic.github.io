@@ -1,0 +1,167 @@
+h1{
+    font-size: 36px;
+    font-weight: bold;
+}
+h2{
+    font-size: 32px;
+    text-align: center;
+    color:#122C38;
+}
+h1,h2,h3{
+    font-family: 'Poppins', sans-serif;
+}
+li{
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    padding-bottom: 0.1em;
+}
+ul{
+    margin-top: 1em;
+}
+.carousel > li{
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    padding-bottom: 3em;
+}
+.carousel-img{
+    width: 462px;
+    height: 346px;
+}
+.carousel-item.active{
+    height: 460px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+.carousel-inner{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.desni-txt{
+    padding-right: 70px;
+    align-items: center;
+}
+body{
+    padding-top: 96px;
+    font-size: 24px;
+}
+
+body> .container-fluid{
+    padding: 1em;
+}
+div.card h2{
+    font-weight: bold;
+    margin: 1em;
+    margin-bottom: 0em;
+}
+
+.navbar-text > h2{
+    font-weight: bold;
+}
+.card{
+    margin: 1em;
+    border-radius: 20px;
+    border: 2px solid #122C38;
+    overflow: clip;
+}
+.card-footer{
+    padding: 1em;
+    border-radius: 0px 0px 15px 15px;
+}
+.card .card-title{
+    margin-bottom: 0.5em;
+}
+.card-body .col-sm-6{
+    padding: 0;
+}
+.card-body .row{
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+.card-body .col-md-2{
+    border-left: 1px solid white;
+}
+.card-body{
+    padding: 1em;
+}
+.card-body ul{
+    margin-bottom: 1em;
+}
+.monthly{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.rsd{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.details{
+    border: 0em;
+    border-radius: 20px;
+    padding: 1% 4% 1% 4%;
+}
+.form-control{
+    max-width: 18em;
+    font-size: 24px;
+    padding: 0.5em;
+    margin-left: 1em;
+}
+.businessF{
+    background-color: #122C38;
+    border-radius: 0px 0px 15px 15px;
+}
+.prize{
+    font-weight: 400;
+}
+.business{
+    background-color: #00B1D6;
+    border-radius: 15px 15px 0px 0px;
+}
+@media(max-width:500px) {
+    .carousel-item ul{
+        padding-left: 15px;
+    }
+    .carousel-inner{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .carousel-item.active{
+        height: auto;
+    }
+    .desni-txt{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .carousel-img{
+        max-width: 40%;
+        position: relative;
+        visibility: hidden;
+    }
+    .card{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .card-footer .row{
+        padding: 0px;
+        margin: 0;
+        min-block-size: 100px;
+    }
+    h1{
+        font-size: 24px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .carousel li{
+        font-size: 16px;
+    }
+    .body{
+        font-size: 16px;
+    }
+    .card-body li{
+        font-size: 16px;
+    }
+    .card-body{
+        padding: 0.3em;
+    }
+}

@@ -1,0 +1,93 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+}
+.carousel-item li{
+    padding-bottom: 0.7em;
+}
+.carousel-img{
+    width: 462px;
+    height: 346px;
+}
+.carousel-item{
+    height: 460px;
+}
+.desni-txt{
+    padding-right: 70px;
+    align-items: center;
+}
+body{
+    padding-top: 96px;
+    font-size: 1.2em;
+    font-family: 'Merriweather', serif;
+}
+.domen {
+    font-size: 120%;
+}
+.domen h1{
+    font-size: 145%;
+}
+.domen .monthly{
+    font-size: 95%;
+}
+.card{
+    margin: 0.7em;
+    border-radius: 20px;
+    border: 2px solid #122C38;
+    overflow: clip;
+}
+.card-body .col-md-2{
+    border-left: 1px solid white;
+}
+.monthly{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.rsd{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.details{
+    border: 0em;
+    border-radius: 20px;
+    padding: 0.5em 1em 0.5em 1em;
+    margin-top: 1em;
+    font-size: large;
+}
+.prize{
+    font-weight: 400;
+}
+footer {
+    font-size: 70%;
+    font-family: 'Merriweather', serif;
+}
+footer h5{
+    font-family: 'Merriweather', serif;
+}
+@media(max-width:1200px) {
+    .carousel-item{
+        height: 530px;
+        justify-content: center;
+        align-items: center;
+    }
+    body{
+        padding-top: 100px;
+    }
+}
+@media(max-width:500px) {
+    .carousel-item.active{
+        height: auto;
+    }
+    .card-footer .row{
+        padding: 0px;
+        margin: 0;
+        min-block-size: 100px;
+    }
+    body{
+        font-size: 1em;
+    }
+    .card-body{
+        padding: 0.3em;
+    }
+}
+
+

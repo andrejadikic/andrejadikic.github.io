@@ -1,0 +1,17 @@
+$primary: #046C8E;
+$body-bg: #DAC9CB;
+$secondary: #00B1D6;
+$warning: #EBCD00;
+$light: #ab0c0c;
+$dark:#122C38;
+/* _card.scss:205 */
+.card-footer {
+    border-bottom-right-radius: $card-border-radius;
+  }
+  
+  /* _card.scss:218 */
+  .card-footer {
+    border-bottom-left-radius: $card-border-radius;
+  }
+
+@import '../node_modules/bootstrap/scss/bootstrap';
